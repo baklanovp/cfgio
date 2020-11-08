@@ -1,7 +1,7 @@
-FC=ifort
-FFLAG=-O2
-INC=../include
-LIB=../lib
+FC = gfortran
+FFLAG = -O2
+INC = .
+LIB = .
 
 TARGET=libcfgio.a
 OBJECTS= string_conv_mod.o cfgio_mod.o
